@@ -38,7 +38,7 @@ Mas, com o tempo, as empresas começaram a perceber que isso não era suficiente
 
 Foi assim que surgiu o conceito de marketing orientado para o cliente. As empresas começaram a colocar o cliente no centro de suas estratégias, focando em criar valor e construir relacionamentos duradouros.
 
-Hoje, o marketing continua a evoluir. Com o advento da internet e das mídias sociais, o marketing digital se tornou uma parte crucial da estratégia de marketing de qualquer empresa. As empresas agora têm a capacidade de se conectar com os clientes em um nível mais pessoal e interativo, criando experiências de marketing ainda mais ricas e envolventes. Se você quiser se aprofundar no assunto, [neste artigo](http://localhost:10038/evolucao-do-marketing/), falo em detalhes sobre a [evolução do marketing, do 1.0 ao 4.0](http://localhost:10038/evolucao-do-marketing/).
+Hoje, o marketing continua a evoluir. Com o advento da internet e das mídias sociais, o marketing digital se tornou uma parte crucial da estratégia de marketing de qualquer empresa. As empresas agora têm a capacidade de se conectar com os clientes em um nível mais pessoal e interativo, criando experiências de marketing ainda mais ricas e envolventes. Se você quiser se aprofundar no assunto, [neste artigo](/AS---Blog/blog/evolucao-do-marketing), falo em detalhes sobre a [evolução do marketing, do 1.0 ao 4.0](/AS---Blog/blog/evolucao-do-marketing).
 
 Então, o que o futuro reserva para o marketing? Só o tempo dirá. Mas uma coisa é certa: o marketing continuará a evoluir e a se adaptar, assim como sempre fez.
 

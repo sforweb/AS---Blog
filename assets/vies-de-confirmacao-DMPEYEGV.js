@@ -42,7 +42,7 @@ Mas, por que isso acontece?
 
 Uma das possíveis razões é que ao reafirmarmos nossas convicções estamos protegendo nossa autoestima. Ninguém gosta de estar equivocado, e ao percebermos que uma crença que valorizamos e defendemos é falsa, estamos assumindo que tivemos comportamentos incorretos por não termos sido capazes de lidar assertivamente com as informações que recebemos.
 
-Pontos de vista profundamente arraigados geralmente formam nossas identidades, portanto, refutá-los tende a ser muito doloroso, e até mesmo difícil de acontecer, pois tendemos a não assumir nossas deficiências de conhecimento e supervalorizar nossas capacidades, como explica o [Efeito Dunning-Kruger](http://localhost:10038/o-efeito-dunning-kruger/). 
+Pontos de vista profundamente arraigados geralmente formam nossas identidades, portanto, refutá-los tende a ser muito doloroso, e até mesmo difícil de acontecer, pois tendemos a não assumir nossas deficiências de conhecimento e supervalorizar nossas capacidades, como explica o [Efeito Dunning-Kruger](/AS---Blog/blog/o-efeito-dunning-kruger). 
 
 Além disso, ao assumirmos que tivemos vieses em nossas decisões e atitudes,  estamos propensos a acreditar que não tivemos inteligência e discernimento na medida que supúnhamos. Por isso, muitas vezes procuramos informações que nos apoiem, e não que refutem nosso modo de pensar. 
 
