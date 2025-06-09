@@ -46,41 +46,41 @@
   }
 
   .dark {
-    --background: 219 39% 11%;
+    --background: 240 40% 8%;
     --foreground: 210 40% 98%;
 
-    --card: 219 39% 11%;
+    --card: 240 40% 8%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 219 39% 11%;
+    --popover: 240 40% 8%;
     --popover-foreground: 210 40% 98%;
 
     --primary: 198 93% 60%;
     --primary-foreground: 219 39% 11%;
 
-    --secondary: 215 25% 27%;
+    --secondary: 240 30% 12%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 215 25% 27%;
+    --muted: 240 30% 12%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 215 25% 27%;
+    --accent: 240 30% 12%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 215 25% 27%;
-    --input: 215 25% 27%;
+    --border: 240 30% 12%;
+    --input: 240 30% 12%;
     --ring: 212.7 26.8% 83.9%;
 
-    --sidebar-background: 219 39% 11%;
+    --sidebar-background: 240 40% 8%;
     --sidebar-foreground: 210 40% 98%;
     --sidebar-primary: 198 93% 60%;
-    --sidebar-primary-foreground: 219 39% 11%;
-    --sidebar-accent: 215 25% 27%;
+    --sidebar-primary-foreground: 240 40% 8%;
+    --sidebar-accent: 240 30% 12%;
     --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 215 25% 27%;
+    --sidebar-border: 240 30% 12%;
     --sidebar-ring: 198 93% 60%;
   }
 }
@@ -93,19 +93,44 @@
   body {
     @apply bg-background text-foreground font-inter;
   }
+
+  /* Estilos para inputs e textareas */
+  input, textarea, select {
+    @apply bg-transparent border border-white/10 rounded-md text-white transition-all duration-150;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    @apply outline-none ring-0 border-[#0ea5e9] shadow-[0_0_0_1px_rgba(14,165,233,0.5)];
+  }
+
+  /* Remover estilos de autopreenchimento */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #020525 inset !important;
+    -webkit-text-fill-color: white !important;
+    caret-color: white !important;
+  }
+
+  /* Estilos para navegadores baseados no Firefox */
+  input:focus-visible, textarea:focus-visible, select:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(14, 165, 233, 0.5);
+  }
 }
 
 @layer components {
   .dark-gradient {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0ea5e9 100%);
+    background: linear-gradient(135deg, #020525 0%, #030630 50%, #0ea5e9 100%);
   }
   
   .hero-gradient {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 30%, #0369a1 70%, #0ea5e9 100%);
+    background: linear-gradient(135deg, #020525 0%, #030630 30%, #0369a1 70%, #0ea5e9 100%);
   }
   
   .tech-gradient {
-    background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0ea5e9 100%);
+    background: linear-gradient(135deg, #020525 0%, #0369a1 50%, #0ea5e9 100%);
   }
 
   /* Scrollbar Hide */
@@ -124,27 +149,46 @@
   }
 
   .prose h1 {
-    @apply font-lora font-bold text-gray-900 dark:text-white;
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6 leading-tight;
   }
 
   .prose h2 {
-    @apply font-lora font-bold text-gray-900 dark:text-white mt-12 mb-6;
+    @apply text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mt-12 mb-6 leading-snug;
   }
 
   .prose h3 {
-    @apply font-lora font-semibold text-gray-900 dark:text-white mt-8 mb-4;
+    @apply text-xl md:text-2xl font-semibold text-gray-800 dark:text-gray-200 mt-10 mb-4 leading-snug;
+  }
+
+  .prose h4 {
+    @apply text-lg md:text-xl font-semibold text-gray-800 dark:text-gray-200 mt-8 mb-3 leading-snug;
   }
 
   .prose p {
-    @apply text-gray-700 dark:text-gray-300 mb-6;
+    @apply text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-base md:text-lg;
   }
 
   .prose blockquote {
-    @apply border-l-4 border-tech-blue-500 pl-6 italic text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-tech-blue-900/20 py-4 rounded-r-lg;
+    @apply relative border-l-4 border-[#67c9f8] pl-6 pr-6 py-6 my-8 rounded-r-lg overflow-hidden;
+    @apply bg-gradient-to-r from-[#f8fafc] to-white dark:from-[#0c1a3a] dark:to-[#0a142e];
+    @apply shadow-sm hover:shadow-md transition-shadow duration-300;
+    font-style: normal;
+  }
+  
+  .prose blockquote p {
+    @apply relative z-10 text-gray-700 dark:text-gray-200 text-lg leading-relaxed mb-4;
+  }
+  
+  .prose blockquote footer {
+    @apply text-sm text-gray-500 dark:text-gray-400 mt-3 font-medium not-italic;
+  }
+  
+  .prose blockquote footer::before {
+    content: '— ';
   }
 
   .prose a {
-    @apply text-tech-blue-500 hover:text-tech-blue-600 dark:hover:text-tech-blue-400 transition-colors duration-200;
+    @apply text-[#67c9f8] hover:text-[#4ab9f7] transition-colors duration-200;
   }
 
   .prose a:hover {
@@ -160,7 +204,15 @@
   }
 
   .prose li {
-    @apply text-gray-700 dark:text-gray-300;
+    @apply mb-2 text-gray-700 dark:text-gray-300 leading-relaxed;
+    
+    & > p {
+      @apply mb-2;
+    }
+    
+    & > ul, & > ol {
+      @apply mt-2 mb-0;
+    }
   }
 
   .prose img {
@@ -171,8 +223,8 @@
     @apply font-semibold text-gray-900 dark:text-white;
   }
 
-  .prose em {
-    @apply italic;
+  .prose ul, .prose ol {
+    @apply mb-6 pl-6 space-y-2;
   }
 
   .prose code {
@@ -203,5 +255,36 @@
   
   .glow-blue-500 {
     box-shadow: 0 0 15px 5px rgba(14, 165, 233, 0.3);
+  }
+  
+  /* Estilos específicos para o formulário de contato */
+  .contact-form input,
+  .contact-form textarea {
+    @apply bg-black/30 border border-white/10 text-white rounded-md transition-all duration-150;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    @apply border-[#0ea5e9] shadow-[0_0_0_1px_rgba(14,165,233,0.5)] outline-none ring-0;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    @apply text-white/50;
+  }
+  
+  .contact-form .form-message {
+    @apply text-xs text-red-400;
+  }
+  
+  /* Remover setas dos inputs de número */
+  .contact-form input[type="number"]::-webkit-inner-spin-button,
+  .contact-form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .contact-form input[type="number"] {
+    -moz-appearance: textfield;
   }
 }

@@ -24,9 +24,9 @@ const ReadingProgress = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed top-16 left-0 right-0 z-40 h-1 bg-gray-200/50 dark:bg-tech-blue-800/30">
+    <div className="fixed bottom-0 left-0 right-0 z-40 h-1 bg-gray-200/50 dark:bg-tech-blue-800/30">
       <div 
-        className="h-full bg-gradient-to-r from-tech-blue-500 to-tech-blue-600 transition-all duration-150 ease-out"
+        className="h-full bg-[#67c9f8] transition-all duration-150 ease-out"
         style={{ width: `${progress}%` }}
       />
     </div>

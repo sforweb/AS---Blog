@@ -21,7 +21,6 @@ export default {
 		extend: {
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
-				'lora': ['Lora', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -68,7 +67,7 @@ export default {
 					'700': '#0369a1',
 					'800': '#075985',
 					'900': '#0c4a6e',
-					'950': '#0f172a',
+					'950': '#020525',
 				},
 				'accent-blue': '#0ea5e9',
 				'dark-blue': {
@@ -77,7 +76,7 @@ export default {
 					'500': '#0369a1',
 					'800': '#075985',
 					'900': '#0c4a6e',
-					'950': '#0f172a',
+					'950': '#020525',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -91,9 +90,9 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'dark-gradient': 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0ea5e9 100%)',
-				'hero-gradient': 'linear-gradient(135deg, #0f172a 0%, #1e293b 30%, #0369a1 70%, #0ea5e9 100%)',
-				'tech-gradient': 'linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0ea5e9 100%)',
+				'dark-gradient': 'linear-gradient(135deg, #020525 0%, #030630 50%, #0ea5e9 100%)',
+				'hero-gradient': 'linear-gradient(135deg, #020525 0%, #030630 30%, #0369a1 70%, #0ea5e9 100%)',
+				'tech-gradient': 'linear-gradient(135deg, #020525 0%, #0369a1 50%, #0ea5e9 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
