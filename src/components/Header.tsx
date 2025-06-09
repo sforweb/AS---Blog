@@ -131,7 +131,6 @@ const Header = () => {
             {/* Contact Button */}
             <Link
               to="/contact"
-              onClick={(e) => scrollToTop(e, '/contact')}
               className="hidden sm:flex items-center px-4 py-2 bg-[#67c9f8] hover:bg-[#4ab9f7] text-white font-medium rounded-full transition-all duration-200 shadow-sm hover:shadow"
             >
               Fale Conosco

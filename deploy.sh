@@ -27,6 +27,12 @@ if [ ! -f .nojekyll ]; then
     touch .nojekyll
 fi
 
+# Copia o arquivo CNAME para a pasta de build
+if [ -f ../public/CNAME ]; then
+    echo "${YELLOW}Copiando CNAME...${NC}"
+    cp ../public/CNAME .
+fi
+
 # Inicializa o repositório Git se não existir
 if [ ! -d .git ]; then
     echo "${YELLOW}Inicializando repositório Git...${NC}"

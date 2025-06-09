@@ -8,8 +8,8 @@ export default defineConfig(({ mode }) => {
   console.log('Iniciando Vite com modo:', mode);
   
   return {
-    // Configuração para garantir que os arquivos estáticos sejam servidos corretamente
-    base: '/AS---Blog/',
+    // Configuração base vazia para funcionar em domínio raiz
+    base: '/',
     publicDir: 'public',
     server: {
       host: "::",
