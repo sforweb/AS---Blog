@@ -1,0 +1,27 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  ignore = "git diff --quiet HEAD origin/main -- netlify.toml"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Ignora a pasta dist para o Netlify
+[[plugins]]
+  package = "@netlify/plugin-git-credential-helper"
+
+[dev]
+  publish = "dist"
+  targetPort = 5173
+  framework = "vite"
+
+# Desativa o tratamento de submódulos
+[build.environment]
+  NETLIFY = "true"
+  NPM_FLAGS = "--no-optional"
+
+# Ignora a pasta dist
+[[redirects]]
+  from = "/dist/*"
+  to = "/"
+  status = 404
