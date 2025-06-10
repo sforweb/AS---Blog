@@ -5,23 +5,32 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  NETLIFY = "true"
+  NPM_FLAGS = "--no-optional"
+  GIT_SUBMODULE_STRATEGY = "none"
 
-# Ignora a pasta dist para o Netlify
-[[plugins]]
-  package = "@netlify/plugin-git-credential-helper"
-
+# Configurações de desenvolvimento
 [dev]
   publish = "dist"
   targetPort = 5173
   framework = "vite"
 
-# Desativa o tratamento de submódulos
-[build.environment]
-  NETLIFY = "true"
-  NPM_FLAGS = "--no-optional"
+# Plugins
+[[plugins]]
+  package = "@netlify/plugin-git-credential-helper"
 
-# Ignora a pasta dist
+# Redirecionamentos
 [[redirects]]
   from = "/dist/*"
   to = "/"
   status = 404
+
+# Configurações de build adicionais
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.deploy-preview.environment]
+  NODE_ENV = "development"
+
+[context.branch-deploy.environment]
+  NODE_ENV = "development"
