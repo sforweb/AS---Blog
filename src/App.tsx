@@ -38,7 +38,7 @@ function App() {
       }
     >
       <ThemeProvider>
-        <Router basename="/AS---Blog">
+        <Router>
           <div className="min-h-screen">
             <ScrollToTop />
             <Routes>

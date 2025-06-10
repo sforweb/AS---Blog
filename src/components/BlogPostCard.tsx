@@ -123,7 +123,7 @@ export function BlogPostCard({ post, className }: BlogPostCardProps) {
                   onError={(e) => {
                     // Fallback para imagem padrão em caso de erro
                     const target = e.target as HTMLImageElement;
-                    target.src = '/AS---Blog/images/team/foto-de-perfil.png';
+                    target.src = '/images/team/foto-de-perfil.png';
                     
                     // Cria um fallback com as iniciais do autor
                     const parent = target.parentElement;

@@ -271,6 +271,11 @@ export default function Contact() {
                 dark: chatDarkIcon,
                 title: 'Via WhatsApp',
                 desc: 'Segunda a Sexta das 9h às 18h.',
+                onClick: () => {
+                  const phoneNumber = '5511912095561'; // Número com DDI 55 e DDD 11
+                  const message = encodeURIComponent('Olá, gostaria de mais informações sobre seus serviços.');
+                  window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+                }
               },
               {
                 light: supportLightIcon,
@@ -284,10 +289,11 @@ export default function Contact() {
                 title: 'Nossa comunidade',
                 desc: 'Conecte-se com outros profissionais interessados em tecnologia.',
               },
-            ].map(({ light, dark, title, desc }) => (
+            ].map(({ light, dark, title, desc, onClick }) => (
               <div
                 key={title}
-                className="bg-white/95 dark:bg-[#040a4a]/15 backdrop-blur-lg p-8 rounded-2xl flex items-center min-h-[140px] hover:shadow-md transition-shadow dark:border dark:border-gray-700/30"
+                onClick={onClick}
+                className={`bg-white/95 dark:bg-[#040a4a]/15 backdrop-blur-lg p-8 rounded-2xl flex items-center min-h-[140px] hover:shadow-md transition-all duration-300 border border-transparent hover:border-[#67c9f8] dark:border-gray-700/30 dark:hover:border-[#67c9f8] transform hover:-translate-y-1 ${onClick ? 'cursor-pointer' : ''}`}
               >
                 <div className="w-16 h-16 flex-shrink-0 bg-tech-blue-50 dark:bg-tech-blue-900/20 rounded-xl flex items-center justify-center mr-6 p-2">
                   <img 

@@ -56,4 +56,4 @@ git push -f https://github.com/sforweb/AS---Blog.git gh-pages
 cd -
 
 echo "${GREEN}Deploy concluído com sucesso! 🚀${NC}"
-echo "Acesse: https://sforweb.github.io/AS---Blog/"
+echo "Acesse: https://alexandrespada.com.br"
