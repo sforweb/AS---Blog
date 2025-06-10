@@ -1,15 +1,11 @@
 [build]
-  command = "bash ./netlify-build.sh"
+  command = "npm run build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "18.20.0"
-  NPM_FLAGS = "--force --no-optional"
+  NPM_FLAGS = "--no-optional"
   GIT_SUBMODULE_STRATEGY = "none"
-  NPM_VERSION = "9.8.1"
-
-[build.processing]
-  skip_processing = true
 
 # Configurações de desenvolvimento
 [dev]
