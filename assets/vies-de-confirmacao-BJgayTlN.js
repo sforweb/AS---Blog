@@ -1,4 +1,4 @@
----
+const e=`---
 title: Viés de Confirmação: A maneira como você enxerga o mundo pode não ser real
 date: "2022-07-02"
 excerpt: O Viés de Confirmação pode estar moldando suas decisões sem que você perceba. Descubra como identificar e superar esse fenômeno psicológico.
@@ -42,7 +42,7 @@ Mas, por que isso acontece?
 
 Uma das possíveis razões é que ao reafirmarmos nossas convicções estamos protegendo nossa autoestima. Ninguém gosta de estar equivocado, e ao percebermos que uma crença que valorizamos e defendemos é falsa, estamos assumindo que tivemos comportamentos incorretos por não termos sido capazes de lidar assertivamente com as informações que recebemos.
 
-Pontos de vista profundamente arraigados geralmente formam nossas identidades, portanto, refutá-los tende a ser muito doloroso, e até mesmo difícil de acontecer, pois tendemos a não assumir nossas deficiências de conhecimento e supervalorizar nossas capacidades, como explica o [Efeito Dunning-Kruger](/AS---Blog/blog/o-efeito-dunning-kruger). 
+Pontos de vista profundamente arraigados geralmente formam nossas identidades, portanto, refutá-los tende a ser muito doloroso, e até mesmo difícil de acontecer, pois tendemos a não assumir nossas deficiências de conhecimento e supervalorizar nossas capacidades, como explica o [Efeito Dunning-Kruger](/blog/o-efeito-dunning-kruger). 
 
 Além disso, ao assumirmos que tivemos vieses em nossas decisões e atitudes,  estamos propensos a acreditar que não tivemos inteligência e discernimento na medida que supúnhamos. Por isso, muitas vezes procuramos informações que nos apoiem, e não que refutem nosso modo de pensar. 
 
@@ -144,4 +144,4 @@ O'Reilly, D. M., Reisch, J. T., & Leitch, R. A. (2017). _[Do experienced auditor
 
 Perera, D., Chand, P., & Mala, R. (2019). _[Confirmation bias in accounting judgments: the case for International Financial Reporting Standards for small and medium-sized enterprises](https://doi.org/10.1111/acfi.12523)_. Accounting & Finance.
 
-Shantha Gowri, B., & Ram, V. S. (2019). _[Does availability bias have influence on FMCG investors? An empirical study on cognitive dissonance, rational behaviour and mental accounting bias](https://doi.org/10.5430/ijfr.v10n4p68)_. International Journal of Financial Research, 10(4), 68-83.
+Shantha Gowri, B., & Ram, V. S. (2019). _[Does availability bias have influence on FMCG investors? An empirical study on cognitive dissonance, rational behaviour and mental accounting bias](https://doi.org/10.5430/ijfr.v10n4p68)_. International Journal of Financial Research, 10(4), 68-83.`;export{e as default};

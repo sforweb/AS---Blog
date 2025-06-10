@@ -16,7 +16,7 @@ Vanessa é uma excelente profissional de marketing. Ela trabalha há apenas algu
 
 Além disso, Vanessa tem notável talento para dialogar por e-mail com potenciais consumidores e sabe exatamente o que escrever a eles para que deem o próximo passo e  conversem com um representante comercial.
 
-Enquanto seus colegas desqualificam _leads_ depois de algumas tentativas, ela continua a comunicação de forma inteligente, precisa e [produtiva](/AS---Blog/blog/produtividade-e-foco-no-trabalho).
+Enquanto seus colegas desqualificam _leads_ depois de algumas tentativas, ela continua a comunicação de forma inteligente, precisa e [produtiva](/blog/produtividade-e-foco-no-trabalho).
 
 Como se já não bastassem atributos, Vanessa nunca se ausenta de suas atividades. Trabalha 24h por dia e 7 dias por semana.
 
@@ -40,7 +40,7 @@ Se você é empresário, gestor ou atua na área, sabe o quanto marketing opera 
 
 Para combater essas restrições, empresas começaram a dar seus primeiros passos no sentido de confiar em soluções de Inteligência Artificial como meio de otimizar o aproveitamento de recursos. Tais soluções podem atuar como um multiplicador de forças.
 
-Imagine a possibilidade de preencher sua empresa com centenas de profissionais brilhantes como a Vanessa, capazes de analisar habilmente grandes quantidades de dados e fornecer rapidamente informações ​​que aumentem a [produtividade](/AS---Blog/blog/produtividade-e-foco-no-trabalho) e a eficiência das ações de marketing e vendas.
+Imagine a possibilidade de preencher sua empresa com centenas de profissionais brilhantes como a Vanessa, capazes de analisar habilmente grandes quantidades de dados e fornecer rapidamente informações ​​que aumentem a [produtividade](/blog/produtividade-e-foco-no-trabalho) e a eficiência das ações de marketing e vendas.
 
 É exatamente isso que o futuro do marketing e a Inteligência Artificial podem proporcionar às empresas.
 

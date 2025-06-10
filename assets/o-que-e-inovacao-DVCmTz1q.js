@@ -34,7 +34,7 @@ Espero que seja útil a você! Vamos lá…
 
 ## Nick Skillicorn
 
-![Nick Skillicorn - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-nick-skillicorn.jpg)
+![Nick Skillicorn - Especialista em Inovação](/images/blog/o-que-e-inovacao-nick-skillicorn.jpg)
 
 Nick é CEO e fundador da Improvides Innovation Consulting . Foi eleito um dos principais blogueiros de inovação do mundo em 2014 e é líder na difusão de estudos sobre a ciência de melhoria da criatividade.
 
@@ -58,7 +58,7 @@ Inverter sua perspectiva de busca de inovação. Ao invés de tentar encontrar c
 
 ## David Burkus
 
-![David Burkus - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-david-burkus.jpg)
+![David Burkus - Especialista em Inovação](/images/blog/o-que-e-inovacao-david-burkus.jpg)
 
 David Burkus é autor best-seller, podcaster premiado e professor de administração na [Oral Roberts University](https://oru.edu/).
 
@@ -82,7 +82,7 @@ Ao invés disso, o que se recomenda é estimular diálogos com todos na organiza
 
 ## Stephen Shapiro
 
-![Stephen Shapiro - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-stephen-shapiro.jpg)
+![Stephen Shapiro - Especialista em Inovação](/images/blog/o-que-e-inovacao-stephen-shapiro.jpg)
 
 Stephen Shapiro é estudioso de inovação, palestrante e autor de o Hall da Fama. Seus livros incluem [Best Practices Are Stupid](https://stephenshapiro.com/books/best-practices-stupid) e Personality Poker.
 
@@ -144,7 +144,7 @@ Grandes ideias levam tempo para maturar e podem falhar em inúmeras fases de exe
 
 ## Gijs van Wulfen
 
-![Gijs van Wulfen - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-gijs-van-wulfen.jpg)
+![Gijs van Wulfen - Especialista em Inovação](/images/blog/o-que-e-inovacao-gijs-van-wulfen.jpg)
 
 Gijs van Wulfen é influenciador no Linkedin e autor da [FORTH Innovation Methodology](http://www.forth-innovation.com/).
 
@@ -192,7 +192,7 @@ As empresas devem focar em realmente ouvir mais seus consumidores e clientes sob
 
 ## Robert Brands
 
-![Robert Brands - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-robert-brands.jpg)
+![Robert Brands - Especialista em Inovação](/images/blog/o-que-e-inovacao-robert-brands.jpg)
 
 Robert Brands é empreendedor serial, facilitador em workshops, autor, palestrante e Innovation Coach.
 
@@ -246,7 +246,7 @@ Virar a chave, ou seja, deixar de focar em estimular a geração de ideias e con
 
 ## Paul Sloane
 
-![Paul Sloane - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-paul-sloane.jpg)
+![Paul Sloane - Especialista em Inovação](/images/blog/o-que-e-inovacao-paul-sloane.jpg)
 
 Paul Sloane é palestrante, facilitador e autor especializado em criatividade e inovação.
 
@@ -264,7 +264,7 @@ A ação mais simples que um negócio pode realizar para mudar sua perspectiva s
 
 ## Jeffrey Baumgartner
 
-![Jeffrey Baumgartner - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-jeffrey-baumgartner.jpg)
+![Jeffrey Baumgartner - Especialista em Inovação](/images/blog/o-que-e-inovacao-jeffrey-baumgartner.jpg)
 
 Jeffrey Baumgartner é autor, palestrante, facilitador de workshops e especialista em criatividade e inovação.
 
@@ -282,7 +282,7 @@ Eu acredito que colocar mais mulheres em sua alta gerência. Estudos mostraram q
 
 ## Stefan Lindegaard
 
-![Stefan Lindegaard - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-stefan-lindegaard.jpg)
+![Stefan Lindegaard - Especialista em Inovação](/images/blog/o-que-e-inovacao-stefan-lindegaard.jpg)
 
 Stefan Lindegaard é o principal transformador da Transform - or Die! É também autor, palestrante e consultor com foco em transformação corporativa baseada em digitalização e inovação.
 
@@ -300,7 +300,7 @@ Como disse anteriormente, as empresas devem parar de falar sobre inovação e fo
 
 ## Drew Boyd
 
-![Drew Boyd - Especialista em Inovação](/AS---Blog/images/blog/o-que-e-inovacao-drew-boyd.jpg)
+![Drew Boyd - Especialista em Inovação](/images/blog/o-que-e-inovacao-drew-boyd.jpg)
 
 Drew Boyd é co-autor de [Inside the Box](https://www.amazon.com/Inside-Box-Creativity-Breakthrough-Results/dp/1451659296): Um sistema comprovado de criatividade para resultados inovadores. É também profissional de inovação, professor, blogueiro e palestrante.
 
@@ -378,7 +378,7 @@ Com base na combinação desses elementos é possível dizer que inovação é:
 
 Então aí está. Um definição de inovação sintetizada com base na análise das opiniões de alguns dos maiores especialistas mundiais em inovação.
 
-Espero que tenha gostado. No próximo post falarei sobre os principais [tipos de inovação](/AS---Blog/blog/tipos-de-inovacao), e também, sobre grandes [empresas que faliram](/AS---Blog/blog/5-grandes-empresas-que-faliram-por-nao-inovar) por não inovar.
+Espero que tenha gostado. No próximo post falarei sobre os principais [tipos de inovação](/blog/tipos-de-inovacao), e também, sobre grandes [empresas que faliram](/blog/5-grandes-empresas-que-faliram-por-nao-inovar) por não inovar.
 
 Até lá...
 `;export{e as default};
