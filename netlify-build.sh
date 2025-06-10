@@ -18,36 +18,34 @@ npm -v
 echo -e "${BLUE}Conteúdo da pasta atual:${NC}"
 ls -la
 
-# Limpar cache do npm se existir
+# Limpar cache do npm
 echo -e "${YELLOW}Limpando cache npm...${NC}"
 npm cache clean --force
 
 # Instalar dependências
 echo -e "${YELLOW}Instalando dependências...${NC}"
-npm install
+npm install --legacy-peer-deps
 
-# Instalar vite explicitamente
-echo -e "${YELLOW}Instalando Vite explicitamente...${NC}"
-npm install --save-dev vite@5.4.1
+# Instalar Vite e plugins necessários
+echo -e "${YELLOW}Instalando Vite e plugins...${NC}"
+npm install --save-dev vite@5.4.1 @vitejs/plugin-react-swc --legacy-peer-deps
 
-# Listar o conteúdo de node_modules para debug
-echo -e "${BLUE}Verificando pasta node_modules/.bin:${NC}"
-if [ -d "./node_modules/.bin" ]; then
-  ls -la ./node_modules/.bin
-else
-  echo -e "${RED}Diretório node_modules/.bin não encontrado!${NC}"
-fi
+# Usar configuração simplificada
+cp vite.config.js vite.config.temp.js
 
-# Executar build usando npx
+# Executar build
 echo -e "${GREEN}Executando build...${NC}"
-npx --yes vite@5.4.1 build
+NODE_OPTIONS=--openssl-legacy-provider npx vite build --config vite.config.temp.js
 
 # Verificar resultado
 if [ $? -eq 0 ]; then
   echo -e "${GREEN}Build concluído com sucesso!${NC}"
   ls -la ./dist
+  # Remover arquivo temporário
+  rm -f vite.config.temp.js
   exit 0
 else
   echo -e "${RED}Erro durante o build.${NC}"
+  # Manter o arquivo temporário para debug em caso de erro
   exit 1
 fi
