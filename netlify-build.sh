@@ -14,6 +14,10 @@ node -v
 echo -e "${BLUE}NPM version:${NC}"
 npm -v
 
+# Listar diretórios para debug
+echo -e "${BLUE}Conteúdo da pasta atual:${NC}"
+ls -la
+
 # Limpar cache do npm se existir
 echo -e "${YELLOW}Limpando cache npm...${NC}"
 npm cache clean --force
@@ -22,20 +26,26 @@ npm cache clean --force
 echo -e "${YELLOW}Instalando dependências...${NC}"
 npm install
 
-# Verificar se o vite foi instalado corretamente
-echo -e "${YELLOW}Verificando instalação do Vite...${NC}"
-if [ ! -f "./node_modules/.bin/vite" ]; then
-  echo -e "${RED}Vite não encontrado. Instalando explicitamente...${NC}"
-  npm install --save-dev vite@5.4.1
+# Instalar vite explicitamente
+echo -e "${YELLOW}Instalando Vite explicitamente...${NC}"
+npm install --save-dev vite@5.4.1
+
+# Listar o conteúdo de node_modules para debug
+echo -e "${BLUE}Verificando pasta node_modules/.bin:${NC}"
+if [ -d "./node_modules/.bin" ]; then
+  ls -la ./node_modules/.bin
+else
+  echo -e "${RED}Diretório node_modules/.bin não encontrado!${NC}"
 fi
 
-# Executar build usando o path direto para o vite
+# Executar build usando npx
 echo -e "${GREEN}Executando build...${NC}"
-./node_modules/.bin/vite build
+npx --yes vite@5.4.1 build
 
 # Verificar resultado
 if [ $? -eq 0 ]; then
   echo -e "${GREEN}Build concluído com sucesso!${NC}"
+  ls -la ./dist
   exit 0
 else
   echo -e "${RED}Erro durante o build.${NC}"
